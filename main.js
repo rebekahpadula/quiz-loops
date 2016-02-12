@@ -109,6 +109,7 @@ var stop = Date.now();
 var time =((stop - start) / 1000/ 60);
 console.log('You took ' + time +' to finish this quiz!');
 console.log ('Your score is ' +correct);
+console.log (correct/15*100 +'%')
 
 
 
